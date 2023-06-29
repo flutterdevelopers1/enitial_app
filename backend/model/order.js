@@ -3,7 +3,7 @@
 // need to be running it on a thread.
 
 const mongoose = require("mongoose");
-const { productSchema } = require("./product");
+const { productSchema } = require("./prod");
 
 
 // TODO: update the order schema
