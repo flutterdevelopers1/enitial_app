@@ -7,8 +7,7 @@ const userRouter = require("./routes/user");
 
 const PORT = process.env.PORT || 3000;
 const app = express();
-const DB =
-  "mongodb+srv://rivaan:rivaan123@cluster0.wpyhk.mongodb.net/myFirstDatabase?retryWrites=true&w=majority";
+const DB = "mongodb://127.0.0.1:27017/myapp";
 
 app.use(express.json());
 app.use(authRouter);
