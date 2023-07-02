@@ -30,3 +30,4 @@ pub async fn get_db_handle() -> Database {
 }
 
 pub mod address_db;
+pub mod orders_db;
